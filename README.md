@@ -51,6 +51,8 @@ The Codecademy Front-End Engineer Career Path is designed to take you from begin
 
 - Introduction to Front-End Engineer Career Path
 - Fundamentals of HTML
+  - [🧩 Project: Fashion Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/fashionblog)
+  - [🧩 Project: Wine Festival](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/winefestival)
 - Fundamentals of CSS
 - Developing Websites Locally
 - Deploying Websites

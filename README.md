@@ -45,7 +45,7 @@ Frontend engineers are responsible for translating design mockups into living, b
 
 The Codecademy Front-End Engineer Career Path is designed to take you from beginner to job-ready in approximately 6-10 months. Here's how it's structured:
 
-### 📚 Module 1: Web Foundations (30% Complete)
+### 📚 Module 1: Web Foundations (52% Complete)
 
 **Foundation skills for building styled websites**
 
@@ -54,6 +54,8 @@ The Codecademy Front-End Engineer Career Path is designed to take you from begin
   - [🧩 Project: Fashion Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/fashionblog)
   - [🧩 Project: Wine Festival](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/winefestival)
   - [🧩 Project: New York Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/newtorkcityblog)
+  - [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
+  - [🧩 Project: Olivias Woodruff Portfolio](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/oliviawoodruffportfolio)
 - Fundamentals of CSS
 - Developing Websites Locally
 - Deploying Websites
@@ -71,7 +73,7 @@ The Codecademy Front-End Engineer Career Path is designed to take you from begin
 
 **Key Skills:** Advanced CSS, responsive design, animations, web design principles
 
-### ⚡ Module 3: Building Interactive Websites (1% Complete)
+### ⚡ Module 3: Building Interactive Websites
 
 **JavaScript fundamentals for interactivity**
 
@@ -119,7 +121,10 @@ The Codecademy Front-End Engineer Career Path is designed to take you from begin
 frontend-engineering/
 ├── web-foundations/
 │   ├── fashionblog/
-│   └── [other projects]
+│   └── healthyrecipes
+│   └── newyorkcityblog
+│   └── oliviawoodruffportfolio
+│   └── winefestival
 ├── improved-styling-css/
 │   └── [upcoming projects]
 ├── building-interactive-websites/
@@ -169,7 +174,7 @@ By the end of this career path, I will be able to:
 
 ## 📈 Progress Tracking
 
-- **Overall Progress:** ~31% Complete
+- **Overall Progress:** ~6% Complete
 - **Current Module:** Building Interactive Websites
 - **Projects Completed:** 1
 - **Certification Exams Passed:** 0/3

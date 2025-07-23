@@ -41,25 +41,46 @@ Frontend engineering is the practice of building the user-facing part of web app
 
 Frontend engineers are responsible for translating design mockups into living, breathing web applications using HTML, CSS, JavaScript, and modern frameworks like React.
 
-## 🎯 Career Path Structure
-
-The Codecademy Front-End Engineer Career Path is designed to take you from beginner to job-ready in approximately 6-10 months. Here's how it's structured:
-
 ### 📚 Module 1: Web Foundations (52% Complete)
 
 **Foundation skills for building styled websites**
 
-- Introduction to Front-End Engineer Career Path
-- Fundamentals of HTML
-  - [🧩 Project: Fashion Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/fashionblog)
-  - [🧩 Project: Wine Festival](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/winefestival)
-  - [🧩 Project: New York Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/newtorkcityblog)
-  - [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
-  - [🧩 Project: Olivias Woodruff Portfolio](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/oliviawoodruffportfolio)
-  - [🧩 Project: Davie's Burguers](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/DaviesBurgers)
-- Fundamentals of CSS
-- Developing Websites Locally
-- Deploying Websites
+<details>
+<summary><strong>Introduction to Front-End Engineer Career Path</strong></summary>
+<br>
+</details>
+
+<details>
+<summary><strong>Fundamentals of HTML</strong></summary>
+<br>
+
+- [🧩 Project: Fashion Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/fashionblog)
+- [🧩 Project: Wine Festival](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/winefestival)
+- [🧩 Project: New York Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/newtorkcityblog)
+
+</details>
+
+<details>
+<summary><strong>Fundamentals of CSS</strong></summary>
+<br>
+
+- [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
+- [🧩 Project: Olivias Woodruff Portfolio](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/oliviawoodruffportfolio)
+- [🧩 Project: Davie's Burguers](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/DaviesBurgers)
+
+</details>
+
+<details>
+<summary><strong>Developing Websites Locally</strong></summary>
+<br>
+
+</details>
+
+<details>
+<summary><strong>Deploying Websites</strong></summary>
+<br>
+
+</details>
 
 **Key Skills:** HTML structure, CSS styling, local development, deployment basics
 

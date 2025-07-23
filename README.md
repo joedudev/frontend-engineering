@@ -56,6 +56,7 @@ The Codecademy Front-End Engineer Career Path is designed to take you from begin
   - [🧩 Project: New York Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/newtorkcityblog)
   - [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
   - [🧩 Project: Olivias Woodruff Portfolio](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/oliviawoodruffportfolio)
+  - [🧩 Project: Davie's Burguers](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/DaviesBurgers)
 - Fundamentals of CSS
 - Developing Websites Locally
 - Deploying Websites

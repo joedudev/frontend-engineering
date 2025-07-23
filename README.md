@@ -75,6 +75,8 @@ Frontend engineers are responsible for translating design mockups into living, b
 <summary>Developing Websites Locally</summary>
 <br>
 
+- [🧩 Project: Britty](hhttps://github.com/joedudev/frontend-engineering/tree/main/web-foundations/vscodelearning)
+
 </details>
 
 <details>

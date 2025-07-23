@@ -67,6 +67,7 @@ Frontend engineers are responsible for translating design mockups into living, b
 - [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
 - [🧩 Project: Olivias Woodruff Portfolio](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/oliviawoodruffportfolio)
 - [🧩 Project: Davie's Burguers](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/DaviesBurgers)
+- [🧩 Project: Broadway](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/broadway)
 
 </details>
 

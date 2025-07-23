@@ -46,12 +46,12 @@ Frontend engineers are responsible for translating design mockups into living, b
 **Foundation skills for building styled websites**
 
 <details>
-<summary><strong>Introduction to Front-End Engineer Career Path</strong></summary>
+<summary>Introduction to Front-End Engineer Career Path</summary>
 <br>
 </details>
 
 <details>
-<summary><strong>Fundamentals of HTML</strong></summary>
+<summary>Fundamentals of HTML</summary>
 <br>
 
 - [🧩 Project: Fashion Blog](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/fashionblog)
@@ -61,7 +61,7 @@ Frontend engineers are responsible for translating design mockups into living, b
 </details>
 
 <details>
-<summary><strong>Fundamentals of CSS</strong></summary>
+<summary>Fundamentals of CSS</summary>
 <br>
 
 - [🧩 Project: Healthy Receipes](https://github.com/joedudev/frontend-engineering/tree/main/web-foundations/healthyrecipes)
@@ -71,13 +71,13 @@ Frontend engineers are responsible for translating design mockups into living, b
 </details>
 
 <details>
-<summary><strong>Developing Websites Locally</strong></summary>
+<summary>Developing Websites Locally</summary>
 <br>
 
 </details>
 
 <details>
-<summary><strong>Deploying Websites</strong></summary>
+<summary>Deploying Websites</summary>
 <br>
 
 </details>

@@ -1,0 +1,139 @@
+/* ========================================
+   GOOGLE FONTS IMPORT
+======================================== */
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Caveat:wght@500;700&display=swap");
+
+/* ========================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+======================================== */
+:root {
+  /* Colors */
+  --color-brushes: #bae1ff; /* Light blue pastel */
+  --color-frames: #ffffba; /* Yellow pastel */
+  --color-paint: #ffdfba; /* Peach pastel */
+
+  --text-primary: #2d3436; /* Primary text */
+  --text-secondary: #636e72; /* Body text */
+  --text-accent: #e17055; /* Price text */
+  --text-white: #ffffff; /* White text */
+
+  /* Spacing */
+  --space-small: 16px;
+  --space-medium: 32px;
+  --space-large: 48px;
+
+  /* Border radius */
+  --radius: 25px;
+
+  /* Shadows */
+  --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-large: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================
+   GLOBAL STYLES
+======================================== */
+body {
+  margin: 0;
+  padding: 50px 10%;
+  box-sizing: border-box;
+}
+
+/* ========================================
+   HERO SECTION
+======================================== */
+#hero {
+  background-color: var(--color-brushes);
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  margin-bottom: var(--space-large);
+
+  #heading-main {
+    font-family: "Kalam", cursive;
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--text-white);
+  }
+}
+
+/* ========================================
+   MAIN CONTENT LAYOUT
+======================================== */
+main {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-large);
+
+  .item {
+    flex: 1;
+    background-color: var(--text-white);
+    border-radius: var(--radius);
+    padding: var(--space-large);
+    box-shadow: var(--shadow-medium);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: 80%;
+      height: auto;
+      border-radius: var(--radius);
+      margin-bottom: var(--space-medium);
+    }
+  }
+}
+
+/* ========================================
+   TYPOGRAPHY CLASSES
+======================================== */
+.heading-section {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-shadow: var(--shadow-small);
+}
+
+.heading-product {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.text-body {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.text-price {
+  font-family: "Caveat", cursive;
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--text-accent);
+  cursor: pointer;
+}
+
+/* ========================================
+   SECTION BACKGROUND COLORS
+======================================== */
+#section-brushes {
+  background-color: var(--color-brushes);
+}
+
+#section-frames {
+  background-color: var(--color-frames);
+}
+
+#section-paint {
+  background-color: var(--color-paint);
+}

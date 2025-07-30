@@ -92,10 +92,31 @@ Frontend engineers are responsible for translating design mockups into living, b
 
 **Advanced CSS techniques for modern web design**
 
-- Improved Styling with CSS
-- Fundamentals of Web Design
-- Making a Website Responsive
-- CSS Transitions and Animation
+<details>
+<summary>Improved Styling with CSS</summary>
+<br>
+
+- [🧩 Project: Typography](https://github.com/joedudev/frontend-engineering/tree/main/improved-sytling-with-css/typography)
+
+</details>
+
+<details>
+<summary>Fundamentals of Web Design</summary>
+<br>
+
+</details>
+
+<details>
+<summary>Making a Website Responsive</summary>
+<br>
+
+</details>
+
+<details>
+<summary>CSS Transitions and Animation</summary>
+<br>
+
+</details>
 
 **Key Skills:** Advanced CSS, responsive design, animations, web design principles
 

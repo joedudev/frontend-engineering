@@ -1,0 +1,130 @@
+/* Breadcrumb base */
+.breadcrumb {
+  padding: 25px;
+  padding-left: 50px;
+  background: #fafcfa;
+  border: 2px solid #e8f5e8;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.breadcrumb > li {
+  display: inline;
+  text-decoration: none;
+  position: relative;
+}
+
+.breadcrumb > li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.breadcrumb > li:hover a {
+  color: hsla(88, 100%, 25%, 1);
+  background-color: rgba(86, 191, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* Separadores con flechas verdes entre .location */
+.breadcrumb li.location + li.location::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid hsla(88, 100%, 25%, 1);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  margin: 0 12px;
+  vertical-align: middle;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+/* Estilos para .location */
+.breadcrumb .location a {
+  color: #2c5530;
+  background: linear-gradient(
+    135deg,
+    rgba(86, 191, 0, 0.05) 0%,
+    rgba(86, 191, 0, 0.1) 100%
+  );
+  border: 1px solid rgba(86, 191, 0, 0.2);
+}
+
+.breadcrumb .location a::before {
+  content: "📁";
+  margin-right: 6px;
+  font-size: 0.9em;
+}
+
+/* Estilos especiales para .attribute */
+.breadcrumb .attribute {
+  position: relative;
+}
+
+.breadcrumb .attribute a {
+  color: hsla(88, 100%, 25%, 1);
+  background: linear-gradient(
+    135deg,
+    hsla(88, 100%, 95%, 1) 0%,
+    hsla(88, 100%, 90%, 1) 100%
+  );
+  border: 2px solid hsla(88, 100%, 25%, 0.3);
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(86, 191, 0, 0.2);
+}
+
+.breadcrumb .attribute a::before {
+  content: "🌿";
+  margin-right: 6px;
+  font-size: 0.9em;
+}
+
+.breadcrumb .attribute::after {
+  content: "✨";
+  font-size: 0.7em;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: hsla(88, 100%, 25%, 1);
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Animación hover para attribute */
+.breadcrumb .attribute:hover a {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(86, 191, 0, 0.3);
+}
+
+.breadcrumb .attribute:hover::after {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+/* Separador especial antes de attribute */
+.breadcrumb li.location + li.attribute::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    hsla(88, 100%, 25%, 0.3) 0%,
+    hsla(88, 100%, 25%, 1) 50%,
+    hsla(88, 100%, 25%, 0.3) 100%
+  );
+  margin: 0 15px;
+  vertical-align: middle;
+  border-radius: 1px;
+}

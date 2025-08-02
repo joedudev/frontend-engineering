@@ -99,6 +99,7 @@ Frontend engineers are responsible for translating design mockups into living, b
 - [🧩 Project: Typography](https://github.com/joedudev/frontend-engineering/tree/main/improved-sytling-with-css/typography)
 - [🧩 Project: The Summit](https://github.com/joedudev/frontend-engineering/tree/main/improved-sytling-with-css/the-summit)
 - [🧩 Project: FreshDeals Blueberries](https://github.com/joedudev/frontend-engineering/tree/main/improved-sytling-with-css/freshdeals-blueberries)
+- [🧩 Project: Design System](https://github.com/joedudev/frontend-engineering/tree/main/improved-sytling-with-css/desing-system)
 
 </details>
 

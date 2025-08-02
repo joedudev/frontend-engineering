@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System Proyect</title>
+    <link rel="stylesheet" href="reset_css.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="primary-background primary-text .primary-font">
+    <nav
+      id="nav"
+      class="margin-bottom-xl border-radius-lg w-100 padding-left-3xl secondary-background w-100 padding-3xl"
+    >
+      <h3 class="margin-md margin-left-3xl">Navigation</h3>
+      <ul class="index-list margin-left-3xl">
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#shadows">Shadows</a></li>
+      </ul>
+    </nav>
+    <main class="w-100">
+      <h1 class="text-center">Design system proyect</h1>
+      <section
+        class="margin-xl border-radius-lg border-thick primary-color-border w-100 text-center"
+      >
+        <h2 class="margin-lg" id="colors">Colors</h2>
+        <p class="margin-lg">
+          The design system is based on a primary color and a secondary color.
+          The primary color is used for the main elements of the interface,
+          while the secondary color is used for accents and highlights.
+        </p>
+        <p class="margin-lg">
+          The primary color is <code>#8b5cf6</code> and the secondary color is
+          <code>#f472b6</code>.
+        </p>
+        <h3 class="margin-lg">Main Colors</h3>
+        <div class="margin-xl colors-showcase">
+          <div
+            class="w-25 primary-color-background primary-text padding-xl border-radius-md"
+          >
+            <p>Primary Color</p>
+            <code>#8b5cf6</code>
+          </div>
+          <div
+            class="w-25 secondary-color-background primary-text padding-xl border-radius-md"
+          >
+            <p>Secondary Color</p>
+            <code>#a855f7</code>
+          </div>
+          <div class="w-25 accent-color-background primary-text padding-xl">
+            <p>Accent Color</p>
+            <code>#c084fc</code>
+          </div>
+        </div>
+        <h3 class="margin-lg">Background Colors</h3>
+        <div class="margin-xl colors-showcase">
+          <div
+            class="w-25 primary-background padding-xl border-thick border-radius-md"
+          >
+            <p>Primary Background</p>
+            <code>#0f0f23</code>
+          </div>
+          <div
+            class="w-25 secondary-background padding-xl border-thick border-radius-md"
+          >
+            <p>Secondary Background</p>
+            <code>#1e1b4b</code>
+          </div>
+          <div
+            class="w-25 cards-background padding-xl border-thick border-radius-md"
+          >
+            <p>Cards Background</p>
+            <code>#312e81</code>
+          </div>
+        </div>
+        <h3 class="margin-lg">Text Colors</h3>
+        <div class="margin-xl colors-showcase">
+          <div
+            class="w-25 primary-text padding-xl border-thick border-radius-md"
+          >
+            <p>Primary Text</p>
+            <code>#f8fafc</code>
+          </div>
+          <div
+            class="w-25 secondary-text padding-xl border-thick border-radius-md"
+          >
+            <p>Secondary Text</p>
+            <code>#cbd5e1</code>
+          </div>
+          <div
+            class="w-25 disable-text padding-xl border-thick border-radius-md"
+          >
+            <p>Disable Text</p>
+            <code>#64748b</code>
+          </div>
+        </div>
+        <h3 class="margin-lg">Status Colors</h3>
+        <div class="margin-xl colors-showcase">
+          <div
+            class="w-25 success-text padding-xl border-thick border-radius-md"
+          >
+            <p>Success Text</p>
+            <code>#10b981</code>
+          </div>
+          <div
+            class="w-25 success-background padding-xl border-thick border-radius-md"
+          >
+            <p>Success Background</p>
+            <code>#10b981</code>
+          </div>
+          <div class="w-25 error-text padding-xl border-thick border-radius-md">
+            <p>Error Text</p>
+            <code>#ef4444</code>
+          </div>
+          <div
+            class="w-25 error-background padding-xl border-thick border-radius-md"
+          >
+            <p>Error Background</p>
+            <code>#ef4444</code>
+          </div>
+          <div
+            class="w-25 warning-text padding-xl border-thick border-radius-md"
+          >
+            <p>Warning Text</p>
+            <code>#f59e0b</code>
+          </div>
+          <div
+            class="w-25 warning-background padding-xl border-thick border-radius-md"
+          >
+            <p>Warning Background</p>
+            <code>#f59e0b</code>
+          </div>
+          <div class="w-25 info-text padding-xl border-thick border-radius-md">
+            <p>Info Text</p>
+            <code>#3b82f6</code>
+          </div>
+          <div
+            class="w-25 info-background padding-xl border-thick border-radius-md"
+          >
+            <p>Info Background</p>
+            <code>#3b82f6</code>
+          </div>
+        </div>
+        <h2 class="margin-lg" id="typography">Typography</h2>
+        <h3 class="margin-lg">Fonts</h3>
+        <div class="margin-xl typography-showcase">
+          <div
+            class="w-25 primary-font padding-xl border-thick border-radius-md"
+          >
+            <p>Primary Font</p>
+            <p>Fira Code</p>
+          </div>
+          <div
+            class="w-25 secondary-font padding-xl border-thick border-radius-md"
+          >
+            <p>Secondary Font</p>
+            <p>Inter</p>
+          </div>
+        </div>
+        <h3 class="margin-xl">Font Sizes</h3>
+        <div class="margin-xl font-size-showcase">
+          <div class="text-xs">Text Extra Small (12px)</div>
+          <div class="text-sm">Text Small (14px)</div>
+          <div class="text-base font-bold">Text base (16px)</div>
+          <div class="text-lg">Text Large (18px)</div>
+          <div class="text-xl">Text Extra Large (20px)</div>
+          <div class="text-2xl">Text 2 Extra Large (24px)</div>
+          <div class="text-3xl">Text 3 Extra Large (30px)</div>
+          <div class="text-4xl">Text 4 Extra Large (36px)</div>
+          <div class="text-5xl">Text 5 Extra Large (48px)</div>
+        </div>
+        <h3 class="margin-xl">Font Weights</h3>
+        <div class="margin-xl font-weight-showcase">
+          <div class="font-thin">Font Thin (100)</div>
+          <div class="font-extralight">Font Extra Light (200)</div>
+          <div class="font-light">Font Light (300)</div>
+          <div class="font-normal">Font Normal (400)</div>
+          <div class="font-medium">Font Medium (500)</div>
+          <div class="font-semibold">Font Semi Bold (600)</div>
+          <div class="font-bold">Font Bold (700)</div>
+          <div class="font-extrabold">Font Extra Bold (800)</div>
+          <div class="font-black">Font Black (900)</div>
+        </div>
+        <h3 class="margin-lg">Text Alignments</h3>
+        <div class="text-align-showcase">
+          <div class="text-left border-thick align-middle border-radius-md">
+            Text Left
+          </div>
+          <div class="text-center border-thick align-middle border-radius-md">
+            Text Center
+          </div>
+          <div class="text-right border-thick align-middle border-radius-md">
+            Text Right
+          </div>
+          <div class="text-justify border-thick align-middle border-radius-md">
+            Text Justify
+          </div>
+        </div>
+        <h3 class="margin-lg" id="shadows">Shadows</h3>
+        <div
+          class="shadows-showcase secondary-color-background padding-2xl border-radius-md"
+        >
+          <div
+            class="shadow-sm border-thick padding-md w-25 secondary-background border-radius-md"
+          >
+            Shadow Small
+          </div>
+          <div
+            class="shadow-md border-thick padding-md w-25 secondary-background border-radius-md"
+          >
+            Shadow Medium
+          </div>
+          <div
+            class="shadow-lg border-thick padding-md w-25 secondary-background border-radius-md"
+          >
+            Shadow Large
+          </div>
+          <div
+            class="shadow-xl border-thick padding-md w-25 secondary-background border-radius-md"
+          >
+            Shadow Extra Large
+          </div>
+        </div>
+        <h2 class="margin-lg" id="components">Components</h2>
+        <div class="component-showcase">
+          <button
+            class="button margin-bottom-md border-thick primary-color-border"
+          >
+            Button
+          </button>
+          <input
+            type="text"
+            name="input"
+            id="input"
+            class="border-thick border-radius-md margin-xl"
+            placeholder="Input Field"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

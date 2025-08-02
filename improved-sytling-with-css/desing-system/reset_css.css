@@ -1,0 +1,80 @@
+/* Reset CSS Simple */
+
+/* Aplicar box-sizing a todos los elementos */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remover márgenes y padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Configuración básica del html y body */
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* Remover estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Hacer que las imágenes sean responsivas */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remover estilos por defecto de inputs y botones */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+/* Mejorar el renderizado de texto */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Remover decoraciones de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hacer que los botones sean clickeables */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Remover outline por defecto pero mantener accesibilidad */
+:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+/* Mejorar la legibilidad en dispositivos de alta densidad */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
